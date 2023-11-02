@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.75;
+}
+
+/* Styling the parent section */
+
+section{
+    text-align: center;
+    margin: 0 auto;
+    width: 98%;
+    padding: 1%;
+    height: 600px;
+}
+
+/* reduced image to fit */
+
+img{
+    width: 100%;
+    height: 98%;
+}
+
+/* increased heading size */
+
+h1{
+    font-size: 2rem;
+}
+
+/* increased quote size */
+
+dd{
+    font-size: 1.5rem;
+}
