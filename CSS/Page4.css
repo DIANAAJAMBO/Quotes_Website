@@ -33,3 +33,20 @@ h1{
 dd{
     font-size: 1.5rem;
 }
+
+/* Style button */
+
+button{
+    float: right;
+    margin-right: 5%;
+    font-size: 1.2rem;
+    padding: 1% 2%;
+    background: #000;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+a :hover{
+    transform: scale(1.2);
+}
