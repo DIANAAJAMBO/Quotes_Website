@@ -8,8 +8,8 @@ body{
 
     img{
     display:flex;
-    margin: auto; height: 450;
-    width: 750px;
+    margin: auto; height: "450";
+    width: "750px";
 }
 
 p{
