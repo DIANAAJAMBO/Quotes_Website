@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Lobster&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  height: 100vh;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 0, auto;
+  justify-items: center;
+  align-items: center;
+}
+
+/* .header {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+} */
+figure {
+  width: 50vw;
+  /* padding-top: 4rem; */
+  justify-items: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+h1 {
+  color: white;
+  font-size: clamp(16px, 1.5vw, 30px);
+  font-weight: 500;
+  text-align: center;
+  max-width: 650px;
+  font-family: "Lobster", sans-serif;
+  line-height: 35px;
+  padding-inline: 10px;
+}
+
+div {
+  padding-inline: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+}
+
+button {
+  padding-inline: 40px;
+  padding-block: 15px;
+  background: pink;
+  font-size: 12px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: rgb(245, 123, 143);
+}
+
+@media screen and (max-width: 700px) {
+  figure {
+    width: 90vw;
+  }
+}
