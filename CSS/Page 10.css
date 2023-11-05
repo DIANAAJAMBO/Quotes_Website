@@ -1,28 +1,29 @@
-body{
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Lobster&display=swap");
+body {
   background-color: rgb(240, 217, 186);
 }
-img{
+img {
   width: 700px;
-height: 500px;
-margin: auto;
-display: block;
+  height: 500px;
+  margin: auto;
+  display: block;
 }
 h3 {
   text-align: center;
 }
-.first-hr{
+.first-hr {
   width: 200px;
   border-color: black;
 }
-hr{
+hr {
   width: 200px;
   border-color: black;
 }
-.first-par{
+.first-par {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-p{
+p {
   text-align: center;
 }
 button {

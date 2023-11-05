@@ -22,13 +22,16 @@ main {
 }
 
 figure {
-  width: 50vw;
+  width: 50%;
   justify-items: center;
   align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 img {
   width: 100%;
+  background-image: url("/IMAGES/believe.jpg");
 }
 
 section {
