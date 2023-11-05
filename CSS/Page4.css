@@ -12,14 +12,14 @@ section{
     margin: 0 auto;
     width: 98%;
     padding: 1%;
-    height: 600px;
+    height: 75vh;
 }
 
 /* reduced image to fit */
 
 img{
     width: 100%;
-    height: 98%;
+    height: 95%;
 }
 
 /* increased heading size */
@@ -38,7 +38,7 @@ dd{
 
 button{
     float: right;
-    margin-right: 3%;
+    margin-right: 2%;
     font-size: 1rem;
     padding: 1% 2%;
     background: #000;
