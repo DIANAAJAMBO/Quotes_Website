@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: aqua;
+  background-color: black;
 }
 
 main {
@@ -18,8 +18,8 @@ main {
 
 img {
   width: 90%;
-  height: 650px;
-  margin: auto;
+  height: 495px;
+  margin: 10px auto;
   display: block;
 }
 .container {
@@ -33,13 +33,15 @@ img {
   /* background-color: aqua; */
 }
 p {
-  text-align: right;
+  text-align: center;
   padding-inline: 20px;
   font-size: 17px;
+  color: white;
 }
 
 h3 {
   font-size: 23px;
+  color: white;
 }
 
 h5 {
@@ -49,18 +51,19 @@ h5 {
   text-align: center;
   font-family: "Lobster", sans-serif;
   margin-bottom: 10px;
+  color: white;
 }
 
 button {
   padding-inline: 40px;
   padding-block: 15px;
-  background: black;
+  background: pink;
   font-size: 12px;
   font-weight: 600;
   border: none;
   cursor: pointer;
   border-radius: 5px;
-  color: white;
+  color: black;
 }
 
 .btn {
