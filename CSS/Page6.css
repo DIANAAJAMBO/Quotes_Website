@@ -17,18 +17,22 @@ main {
   flex-direction: column;
   gap: 1.5rem;
   margin: 0, auto;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
 }
 
 figure {
-  width: 50vw;
+  width: 80%;
   justify-items: center;
   align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 img {
   width: 100%;
+  background-image: url("/IMAGES/believe.jpg");
+  height:65vh;
 }
 
 section {

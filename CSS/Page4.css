@@ -1,75 +1,98 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    line-height: 1.75;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Lobster&display=swap");
+
+body {
+  background: black;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.75;
 }
 
 /* Styling the parent section */
 
-section{
-    text-align: center;
-    margin: 0 auto;
-    width: 98%;
-    padding: 1%;
-    height: 75vh;
+section {
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+  padding: 1%;
+  height: 75vh;
 }
 
 /* reduced image to fit */
 
-img{
-    width: 100%;
-    height: 95%;
+img {
+  width: 100%;
+  height: 90%;
 }
 
 /* increased heading size */
 
-h1{
-    font-size: 2rem;
+h1 {
+  font-size: 2rem;
+  color: white;
 }
 
 /* increased quote size */
 
-dd{
-    font-size: 1.5rem;
+dd {
+  font-size: 1rem;
+  font-family: "Lobster", sans-serif;
+  color: white;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 10%;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
 /* Style button */
 
-button{
-    float: right;
-    margin-right: 2%;
-    font-size: 1rem;
-    padding: 1% 2%;
-    background: #000;
-    color: white;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
+button {
+  /* float: right;
+  margin-right: 2%; */
+  font-size: 1rem;
+  /* padding: 1% 2%; */
+  padding-inline: 20px;
+  padding-block: 10px;
+  background: red;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
 }
 
-a :hover{
-    transform: scale(1.2);
+a :hover {
+  transform: scale(1.2);
 }
 
 @media screen and (max-width: 480px) {
-    section{
-        height: 300px;
-    }
+  section {
+    height: 300px;
+  }
 
-    h1{
-        font-size: 1.6rem;
-    }
+  h1 {
+    font-size: 1.6rem;
+  }
 
-    img{
-        height: 100%;
-    }
+  img {
+    height: 100%;
+  }
 
-    dd{
-        font-size: 1.2rem;
-    }
-    
-    button{
-        margin-top: 1%;
-    }
+  dd {
+    font-size: 1.2rem;
+  }
+
+  button {
+    margin-top: 1%;
+  }
 }
