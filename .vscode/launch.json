@@ -8,7 +8,7 @@
       "type": "chrome",
       "request": "launch",
       "name": "Launch Chrome against localhost",
-      "url": "C:\\Users\\ADMIN\\Desktop\\Quotes_Website\\HTML\\Page10.html",
+      "url": "C:\\Users\\ADMIN\\Desktop\\Quotes_Website\\.vscode",
       "webRoot": "${workspaceFolder}"
     }
   ]

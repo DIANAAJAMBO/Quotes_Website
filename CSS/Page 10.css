@@ -1,9 +1,9 @@
 body{
-  background-color: rgb(240, 217, 186);
+  background-color: rgb(233, 212, 188);
 }
 img{
-  width: 700px;
-height: 500px;
+  width: 25vw;
+height: 69vh;
 margin: auto;
 display: block;
 }
